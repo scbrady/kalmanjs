@@ -1,6 +1,6 @@
 {
-  "name": "kalmanjs",
-  "version": "1.0.0-beta",
+  "name": "kalmanjs-updated",
+  "version": "1.0.1",
   "private": false,
   "devDependencies": {
     "babel-cli": "^6.2.0",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wouterbulten/kalmanjs.git"
+    "url": "git://github.com/scbrady/kalmanjs.git"
   },
   "description": "A small library implementing the principle of Kalman filters, without any dependencies, to filter out noise in 1D systems.",
   "bugs": {
-    "url": "https://github.com/wouterbulten/kalmanjs/issues"
+    "url": "https://github.com/scbrady/kalmanjs/issues"
   },
-  "homepage": "https://github.com/wouterbulten/kalmanjs",
+  "homepage": "https://github.com/scbrady/kalmanjs",
   "main": "lib/kalman.js",
   "scripts": {
     "compile": "babel --source-maps -d lib/ src/",
